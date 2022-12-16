@@ -1,0 +1,128 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  padding: 100px;
+}
+
+#demo .box {
+  position: relative;
+}
+#demo .box h1 {
+  transform: translate(10px, 10px);
+}
+#demo .box .minibox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #5877e6;
+  background-color: #5877e6;
+  color: white;
+  margin: 10px;
+}
+#demo .box .minibox1 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #5877e6;
+  background-color: #5877e6;
+  color: white;
+  margin: 5px;
+  position: absolute;
+  left: 200px;
+  bottom: 148px;
+}
+
+#demo2 .box {
+  position: relative;
+}
+#demo2 .box .minibox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(71, 117, 80, 0.8196078431);
+  background-color: rgba(71, 117, 80, 0.8196078431);
+  color: white;
+  margin: 10px;
+}
+#demo2 .box .minibox1 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(71, 117, 80, 0.8196078431);
+  background-color: rgba(71, 117, 80, 0.8196078431);
+  color: white;
+  margin: 7px;
+  position: absolute;
+  left: 200px;
+}
+#demo2 .box .minibox3 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(71, 117, 80, 0.8196078431);
+  background-color: rgba(71, 117, 80, 0.8196078431);
+  color: white;
+  margin: 7px;
+  position: absolute;
+  left: 200px;
+}
+#demo2 .box h1 {
+  transform: translate(10px, 10px);
+}
+
+#demo3 .box {
+  position: relative;
+}
+#demo3 .box .minibox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(210, 141, 196);
+  background-color: rgb(210, 141, 196);
+  color: white;
+  margin: 10px;
+}
+#demo3 .box .minibox h1 {
+  transform: translate(10px, 10px);
+}
+#demo3 .box .minibox3 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(210, 141, 196);
+  background-color: rgb(210, 141, 196);
+  color: white;
+  margin: 7px;
+  position: absolute;
+  left: 350px;
+  bottom: 0px;
+}
+#demo3 .box .minibox3 h1 {
+  transform: translate(10px, 10px);
+}
+
+#demo4 .box .minibox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(210, 141, 196);
+  background-color: rgb(210, 141, 196);
+  color: white;
+  margin: 10px;
+}
+#demo4 .box .minibox h1 {
+  transform: translate(10px, 10px);
+}
+#demo4 .box .Lorem p {
+  color: #242020;
+  width: 613px;
+}
+#demo4 .box .minibox1 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(210, 141, 196);
+  background-color: rgb(210, 141, 196);
+  color: white;
+  margin: 10px;
+  position: absolute;
+  right: 5px;
+}
+#demo4 .box .minibox1 h1 {
+  transform: translate(10px, 10px);
+}/*# sourceMappingURL=style.css.map */
