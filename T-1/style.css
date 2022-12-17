@@ -3,10 +3,9 @@ body {
   font-weight: 500;
 }
 
-section {
-  padding: 100px;
+#demo {
+  padding: 100px 0;
 }
-
 #demo .box {
   position: relative;
 }
@@ -113,15 +112,16 @@ section {
   width: 613px;
 }
 #demo4 .box .minibox1 {
-  position: relative;
   width: 150px;
   height: 150px;
   border: 1px solid rgb(210, 141, 196);
   background-color: rgb(210, 141, 196);
   color: white;
   margin: 10px;
-  position: absolute;
-  right: 5px;
+  position: relative;
+  position: fixed;
+  left: 1365px;
+  bottom: 363px;
 }
 #demo4 .box .minibox1 h1 {
   transform: translate(10px, 10px);
