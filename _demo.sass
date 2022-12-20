@@ -1,0 +1,36 @@
+#demo
+    .box
+        .minibox
+            width: 150px
+            height: 150px
+            background-color: #6894a7b8
+            color: #ffff
+            margin: 10px
+            border: 1px solid #5e696c
+            transition: 2s
+            h1
+                transition: 2s
+            &:hover
+                width: 200px
+                height: 200px
+                border: 10px solid #5e696c
+                border-radius: 20px
+                h1
+                    transform: translate(55px, 65px)
+                    font-size: 30px
+                    transition: 2s
+                    color: #4b5254
+                    font-weight: 700
+    @media screen and ( max-width: 800px)
+        .box
+            .minibox
+                width: 100px
+                height: 100px
+                background-color: #56be72
+    @media screen and ( max-width: 600px)
+        .box
+            .minibox
+                width: 60px
+                height: 60px
+                border-radius: 60px solid #88876c
+                background-color: #be5656

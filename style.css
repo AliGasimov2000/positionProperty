@@ -1,0 +1,235 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  padding: 20px 0;
+}
+
+#demo .box .minibox {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(104, 148, 167, 0.7215686275);
+  color: white;
+  margin: 10px;
+  border: 1px solid #5e696c;
+  transition: 2s;
+}
+#demo .box .minibox h1 {
+  transition: 2s;
+}
+#demo .box .minibox:hover {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #5e696c;
+  border-radius: 20px;
+}
+#demo .box .minibox:hover h1 {
+  transform: translate(55px, 65px);
+  font-size: 30px;
+  transition: 2s;
+  color: #4b5254;
+  font-weight: 700;
+}
+@media screen and (max-width: 800px) {
+  #demo .box .minibox {
+    width: 100px;
+    height: 100px;
+    background-color: #56be72;
+  }
+}
+@media screen and (max-width: 600px) {
+  #demo .box .minibox {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px solid #88876c;
+    background-color: #be5656;
+  }
+}
+
+#demo2 .box .minibox {
+  width: 300px;
+  height: 300px;
+  font-size: 30px;
+  border: 2px solid #353131;
+  transition: 2s;
+  background-color: #632d2d;
+  color: #eecc21;
+  margin: 10px;
+}
+#demo2 .box .minibox h2 {
+  transition: 2s;
+}
+#demo2 .box .minibox:hover {
+  width: 200px;
+  height: 200px;
+  background-color: #eecc21;
+  font-size: 50px;
+  border: 7px solid #632d2d;
+  border-radius: 300px;
+}
+#demo2 .box .minibox:hover h2 {
+  transform: translate(85px, 70px);
+  transition: 1s;
+  color: #632d2d;
+}
+@media screen and (max-width: 996px) {
+  #demo2 .box .minibox {
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    background-color: #5a32d0;
+  }
+  #demo2 .box .minibox h2 {
+    color: white;
+    transform: translate(45px, 40px);
+    font-size: 25px;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: 600px) {
+  #demo2 .box .minibox {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(13, 212, 243, 0.5098039216);
+  }
+  #demo2 .box .minibox:hover {
+    width: 100px;
+    height: 100px;
+  }
+  #demo2 .box .minibox:hover h2 {
+    transform: translate(40px, 35px);
+    font-size: 20px;
+    transition: 1s;
+  }
+}
+
+#creat .btn {
+  border: 1px solid #628278;
+  background-color: rgba(98, 130, 120, 0.6235294118);
+  width: 260px;
+  padding: 20px 0;
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+}
+#creat .btn span {
+  transition: 2s;
+}
+#creat .btn:hover {
+  background-color: #7ec3d6;
+  border: 7px solid #918888;
+  border-radius: 20px;
+}
+#creat .btn:hover h5 {
+  font-size: 22px;
+  transition: 2s;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+#creat .btn:hover h5 span {
+  transition: 2s;
+  color: #110b39;
+  font-weight: 700;
+  font-size: 25px;
+}
+@media screen and (max-width: 800px) {
+  #creat .btn {
+    background-color: #4e7ac1;
+    width: 230px;
+    color: #23f179;
+    transition: 2s;
+    font-size: 20px;
+  }
+  #creat .btn:hover {
+    width: 200;
+    padding: 10px 0;
+    border: 4px #2c29cd;
+  }
+}
+@media screen and (max-width: 400px) {
+  #creat .btn {
+    padding: 15px 20px;
+  }
+}
+
+#heightbox .bigbox .box {
+  width: 190px;
+  height: 150px;
+  border: 5px solid #4321a1;
+  background-color: #848181;
+  text-align: center;
+  padding: 20px;
+  transition: 1s;
+  margin: 10px;
+}
+#heightbox .bigbox .box h3 {
+  transition: 1s;
+  color: white;
+  font-size: 25px;
+}
+#heightbox .bigbox .box:hover {
+  width: 400px;
+  background-color: #1632ba;
+  border: 7px solid #ca7310;
+}
+#heightbox .bigbox .box:hover h3 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ca7310;
+  transition: 1s;
+}
+#heightbox .bigbox .box1 {
+  width: 190px;
+  height: 150px;
+  border: 5px solid #e5eb2e;
+  background-color: #848181;
+  text-align: center;
+  transition: 1s;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 1s;
+}
+#heightbox .bigbox .box1 h2 {
+  transition: 1s;
+  color: white;
+  font-size: 25px;
+}
+#heightbox .bigbox .box1:hover {
+  width: 400px;
+  background-color: #bc1515;
+  font-weight: 700;
+}
+#heightbox .bigbox .box1:hover h2 {
+  font-size: 60px;
+  transition: 1s;
+  color: #e5eb2e;
+}
+@media screen and (min-width: 800px) {
+  #heightbox .bigbox .box {
+    width: 190px;
+    height: 150px;
+  }
+  #heightbox .bigbox .box1 {
+    width: 190px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #heightbox .bigbox .box {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    border-radius: 100px;
+  }
+  #heightbox .bigbox .box1 {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: #8b1d97;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+#demo2
+    .box
+        .minibox
+            width: 300px
+            height: 300px
+            font-size: 30px
+            border: 2px solid #353131
+            transition: 2s
+            background-color: #632d2d
+            color: #eecc21
+            margin: 10px
+            h2
+                transition: 2s
+            &:hover
+                width: 200px
+                height: 200px
+                background-color: #eecc21
+                font-size: 50px
+                border: 7px solid #632d2d
+                border-radius: 300px
+                h2
+                    transform: translate(85px ,70px)
+                    transition: 1s
+                    color: #632d2d
+
+    @media screen and ( max-width:996px)
+        .box
+            .minibox
+                width: 200px
+                height: 200px
+                transition: 2s
+                background-color: #5a32d0
+                h2
+                    color: #ffff
+                    transform: translate(45px, 40px)
+                    font-size: 25px
+                    transition: 1s
+    @media screen and ( max-width: 600px )
+        .box
+            .minibox
+                width: 100px
+                height: 100px
+                background-color: #0dd4f382
+                &:hover
+                    width: 100px
+                    height: 100px
+                    h2
+                        transform: translate(40px, 35px)
+                        font-size: 20px
+                        transition: 1s

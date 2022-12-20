@@ -1,0 +1,70 @@
+#heightbox
+    .bigbox
+        .box
+            width: 190px
+            height: 150px
+            border: 5px solid #4321a1
+            background-color: #848181
+            text-align: center
+            padding: 20px
+            transition: 1s
+            margin: 10px
+            h3
+                transition: 1s
+                color: #ffff
+                font-size: 25px
+            &:hover
+                width: 400px
+                background-color: #1632ba
+                border: 7px solid #ca7310
+                h3
+                    font-size: 60px
+                    font-weight: 700
+                    color: #ca7310
+                    transition: 1s
+        .box1
+            width: 190px
+            height: 150px
+            border: 5px solid #e5eb2e
+            background-color: #848181
+            text-align: center
+            transition: 1s
+            padding: 20px
+            margin: 10px
+            font-size: 20px
+            font-weight: 700
+            transition: 1s
+            h2
+                transition: 1s
+                color: #ffff
+                font-size: 25px
+            &:hover
+                width: 400px
+                background-color: #bc1515
+                font-weight: 700
+                h2
+                    font-size: 60px
+                    transition: 1s
+                    color: #e5eb2e
+
+    @media screen and ( min-width: 800px )
+        .bigbox
+            .box
+                width: 190px
+                height: 150px
+            .box1
+                width: 190px
+                height: 150px
+    @media screen and ( max-width: 800px )
+        .bigbox
+            .box
+                width: 100px
+                height: 100px
+                font-size: 18px
+                border-radius: 100px
+            .box1
+                width: 100px
+                height: 100px
+                font-size: 18px
+                border-radius: 100px
+                background-color: #8b1d97
